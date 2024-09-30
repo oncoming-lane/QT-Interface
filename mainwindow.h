@@ -18,6 +18,8 @@ public:
 private slots:
     void onAnyButtonClicked();
 
+    void on_lightButton_clicked();
+
 private:
     enum ButtonId { Button1, Button2, Button3, Button4, Button5 };
 
